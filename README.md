@@ -9,3 +9,6 @@
 3. İncelenen grupların bağımlı ya da bağımsız olmasına,
 4. Karşılaştırılacak grup sayısına,
 5. Verinin normal dağılıma uygun olup olmamasına göre seçilir
+
+	
+![image](https://user-images.githubusercontent.com/105038798/168419330-d66d50ab-e07d-4d64-9673-077d88bb10f6.png)
