@@ -125,7 +125,34 @@ SH = S /(n^(1/2))
 
 
 
+_______________________________________________________________________________________________________________________________________________________________________________
 
+Çeyrekler Açıklığı (IQR(Inter Quantile Range))
+
+
+Betimsel istatistikde çeyrekler açıklığı sıralanmış bir veri dizisinin orta yarısını (%50sini) kapsayan ve üçüncü dörttebirlik ve birinci dörttebirlik 
+aralığını veya  farkını (yani Q3 - Q1) gösteren bir istatistiksel yayılma ölçüsüdür. 
+
+Birinci dörttebirlik sıralanmış veri dizisinin ilk %25inden büyük ve üçüncü dörttebirlik sıralanmış veri dizisinin %25inden daha küçük olduğu için, 
+bu iki dörttebirlik arasında kalan veri yüzdesi %50dir. Çeyrekler açıklığı ölçüm birimi veri ölçüm birimi ile aynıdır. İngilizce'si IQR'dır (Inter Quantile Range).
+
+
+
+Veriler bir basit kutu grafiği ile verilirse
+                    |                   |
+                    |       +-----+-+   | 
+  o           *     |-------|     | |---|
+                    |       +-----+-+   |
+                    |                   | 
++---+---+---+---+---+---+---+---+---+---+---+---+   Sayılar ekseni
+0   1   2   3   4   5   6   7   8   9   10  11  12
+Bu veri seti için
+
+birinci (alt) dörttebirlik Q_{1} x_{.25} = 7
+medyan (ikinci dörttebirlik) Medyan, x_{.5} = 8.5
+üçüncü (üst) dörttebirlik Q_{3} x_{.75} = 9
+
+çeyrekler açıklığı, Q_{3}-Q_{1}=2}
 
 
 
