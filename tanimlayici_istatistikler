@@ -1,0 +1,133 @@
+
+
+Bir veri setinin istatistiksel olarak genel özelliklerini tanımlayan ölçülerdir.
+
+Tanımlayıcı İstatistikler:
+– Sayısal verileri özet olarak tanıtan,
+– Özetleyen,
+– Birimlerin yığıldıkları tipik değerleri gösteren,
+– Yayılımını gösteren, ve
+– Dağılımlar hakkında bilgi veren değerlerdir.
+
+
+YER GÖSTEREN ÖLÇÜLER:
+
+Merkezi eğilim ölçüleri:
+  Aritmetik ortalama
+  Ortanca (Medyan)
+  Tepe Değer (Mod)
+  Oran (%)
+  
+Konum ölçüleri:
+  Çeyreklerler
+  Yüzdelikler
+
+
+YAYGINLIK ÖLÇÜLERİ:
+  Standart sapma
+  Varyasyon/Değişim katsayısı
+  Dağılım genişliği
+  Standart hata
+  
+  
+  ARİTMETİK ORTALAMA
+• Parametrik veriler için kullanılır.
+• Aritmetik ortalama aşırı değerlerden etkilenir. 
+
+Eğer aşırı değerler varsa:
+ Ölçüm hatası yapılıp yapılmadığı araştırılır,
+olanak varsa yeniden ölçüm yapılır.
+ Aşırı değerler değerlendirme dışı bırakılabilir.
+ Bunlar yapılamıyorsa aritmetik ortalama yerine başka bir ortalama ölçüsü olan ortanca kullanılabilir.
+
+
+ORTANCA (MEDYAN)
+
+Birim değerler sıralandığında tam ortaya düşen değerdir. Değerlerin %50’si ortancaya eşit ve/veya daha küçük, %50’si ortancaya eşit ve/veya daha büyüktür. 
+Bu nedenle ortanca dağılımdaki aşırı değerlerden etkilenmez.
+
+• Ordinal veriler için en iyi merkezi dağılım ölçütüdür.
+• Simetrik dağılımlar için ortanca ve ortalamabirbirine yakındır.
+• Ortanca aşırı değerlerden etkilenmez. Bunedenle aşırı uç değerler varsa, sayısal veriler için de ortanca tercih edilmelidir.
+
+Dağılımdaki değerler ya küçükten büyüğe doğru ya da büyükten küçüğe doğru sıralanır.
+
+Denek sayısı tek ise ; Ort.= X(n+1)/2
+Denek sayısı çift ise; Ort.=[X(n/2 )+ X(n+2/2)]/2 formülü ile ortadaki değer bulunur.
+
+
+TEPE DEĞER (MOD)
+
+Nominal ve sayısal veriler için kullanılır. Bir dizide en çok tekrarlanan değere tepe değeri denir.
+
+Bir dizide iki farklı değer eşit frekansta gözlenmişse dizi iki tepelidir denir. Eğer dizide her değer bir kez tekrarlanmışsa dizinin tepe değeri yoktur denir.
+
+VERİ TÜRÜ EN İYİ MERKEZİ EĞİLİM
+ÖLÇÜSÜ
+Nominal Veri                    : Tepe değer (Mod)
+Ordinal Veri                    : Ortanca (Medyan)
+Sayısal (Normal dağılan)Veri    :  Aritmetik ortalama
+Sayısal (Normal dağılmayan)Veri :  Ortanca (Medyan)
+
+
+ORAN (%)
+• Non parametrik veriler için kullanılır.
+
+
+ÇEYREKLİKLER
+
+Bir dağılımı 4 eşit parçaya bölen değerlere çeyrekler denir.
+
+1. Çeyrek (Ç1)          - Değerlerin % 25’i Ç1’e eşit ya da ondan küçüktür. 
+2. Çeyrek (Ç2) Ortanca  - Değerlerin % 50’si Ç2’ye eşit ya da ondan küçüktür
+3. Çeyrek (Ç3)          - Değerlerin % 75’i Ç3’e eşit ya da ondan küçüktür.
+
+___________________________________________________________________________________________________________________
+
+STANDART SAPMA (S.Deviation)
+
+Standart sapma dağılımdaki her bir değerin ortalamaya göre ne uzaklıkta olduğunu, diğer bir deyişle dağılımın ne yaygınlıkta olduğunu gösteren bir ölçüdür.
+
+Normal bir dağılımda verilerin %68’i ortalamanın ± 1 standart sapması içindedir.
+Normal bir dağılımda verilerin %95’i ortalamanın ± 2 standart sapması içindedir.
+Normal bir dağılımda verilerin %99.7’si ortalamanın ± 3 standart sapması içindedir.
+
+* Aritmetik ortalamaları aynı alan iki dağılım aynı yaygınlıkta olmayabilir.
+
+
+Bir dağılımda değerler aritmetik ortalamadan uzaklaştıkça dağılımın yaygınlığı artar. Dağılımın yaygınlığını gösteren ölçülerin en önemlisi standart sapmadır. 
+Standart sapma büyüdükçe dağılım yaygınlaşır. 
+
+
+
+Varyasyon/değişim katsayısı
+
+Standart sapma dağılımını yaygınlığınıgösteren bir ölçüdür. Ancak standart sapma ile dağılım hakkında çok fazla bir şey söylemek olanaksızdır. 
+Çünkü bulunan değer mutlak bir değerdir. Bu değerin büyük mü ?, Küçük mü? olduğuna karar vermek için varyasyon katsayısına bakmak gerekir. 
+
+Varyasyon katsayısı standart sapmanın ortalamaya göre yüzde kaçlık bir değişim gösterdiğini belirtir.
+
+
+DK= (S(S.SAPMA) / X(ORTALAMA))*100
+
+
+Dağılım genişliği (Range)
+
+Bir dizideki en büyük ve en küçük değer arasındaki farka dağılım genişliği denir.
+
+
+Standart Hata
+
+Bir örnekten elde edilen ortalamanın, toplum ortalamasını tahminde ne kadar tutarlı olduğunu tahminde ne kadar hata taşıdığını belirtmekte yararlanılan bir dağılım ölçüsüdür.
+Aritmetik ortalama standart hata ile birlikte gösterilmelidir.
+
+SH = S /(n^(1/2))
+
+
+
+
+
+
+
+
+
