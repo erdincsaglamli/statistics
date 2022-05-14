@@ -1,0 +1,112 @@
+Jacob Wolfowitz (1949) draw distinction between parametric-nonparametric tests
+
+
+I. PARAMETRİK TESTLER:
+
+Kurulan hipotez toplum parametrelerine dayalı olarak kurulur.
+
+Genel Varsayımları:
+
+1 Veriler "NORMAL" dağılıma uymalıdır.
+1. a HOMOJEN VARYANS(değişmemeli)
+2 Veriler "NİCEL" yapıda olmalıdır. (Skor(Likert Tipi),Aralıklı veya Oransal Ölçekli olmalıdır.)
+3 Veriler "TÜRDEŞ" olmalıdır. Grup varysansları eşit olmalıdır.
+4 Test tipine göre "ÖRNEK BİRİM SAYILARI" yeterli olmalıdır.
+5 Değişkenin toplum parametreleri bilinmelidir. (Ortalama, Varyans, Oran(P) vs gibi...)
+6 Sayımla elde edilen Binom, Poisson dağılan değişkenlerin Normale yaklaşım koşullarının gerçekleşmesi gerekir.
+  Binom için normale yaklaşım: np >=10 ve n(1-p)>=10 olmalıdır.
+  Poisson için Normale yaklaşım λ>=20 
+7. gÖZLEMLER BAĞIMSIZ OLMALI.
+8. Random sampling
+9. Data should be Measured on the interval scale. (Nominal(erkeke/kadın, ordinal, ratio 
+
+Kategorik bağımsız değişkenlerin varlığı durumunda, b'sız.değişkenini her bir kategorisindeki varysans değerlerinin birbirinden çokfarklılaşmamasını ifade eden kavram "HOMOJENLİK". 
+
+T-TESTİ (tek örneklem, eşleştirilmiş örneklem) tek yönlü/çift yönlü
+        (regresyon, perason korelasyon katsayısı) T ve F değerlerine göre anlamlılık düzeyleri..
+
+
+
+
+Ortalamaların karşılaştırması üzerinden çıkarım yapar        
+==================================================================================
+
+II. NON- PARAMETRİK TESTLER
+
+1 Verilerin belirli bir dağılıma uygunluğunu, verilerin rastgeleliğini hedefleyen hipotezlerin test edilmesinde uygulanır.
+2 Birims ayılarılarının yetersiz olduğu durumlada uygulanır.
+3 HETEROJEN veri yapılarına uygulanabilir.
+4 NİTEL verilere ya da Normal dağılmayan NİCEL verilere uygulanabilir.
+5 Veriler NORMAL dağılama sahip olmak zorunda değildir.
+6 Kurulan hipotez herhangibir parametreye dayalı olmaksızın ele alınır
+
+Belirli bir serinin ratgele olup olmadığını test ederken kullanılır. 
+
+Medyan değeri üzerinden çıkarım yapar. (Testler Verinin sıralanması sonucu elde edilen sıralama puanlarıyla geliştirilmiştir.)
+Verininne kadar heterojen olduğu önemli değildir. (Sıralama puanı aytkırı değerlerin etkisini azaltır.)
+
+-Wallis, Ki-kare, ...
+
+=============================================================
+
+NORMALLİK TESTLERİ
+
+GRAFİK TESTLERİ - sezgisel/görsel fikirler edinip, analitik testlerle sonuç almak
+
+P-P, (Olasılık Yoğunluk)
+Q-Q,
+Histogram
+Box Plot
+Gövde-Yaprak(Stem-And-Leaf)
+
+
+ANALİTİK TESTLER
+
+Shapiro-Wilk
+Anderson-Darling
+Ryan-Joiner
+Kolmogrov-Smirnov Test örneklem testli
+Lilliefors Düzeltmeli Kolmogrov-Simirnov Testi
+
+
+=============================================================
+
+VARYANS HOMOGENITY
+
+A. NORMAL DAĞILIMG EREKTİREN
+  1. İKİ GRUP
+    a. F Testi
+    b. Pitman Testi
+  2. İKİDEN FAZLA GRUP
+    a.Bartlett Testi
+    
+B. NORMAL DAĞILIM GEREKTİRMEYEN
+  1. İKİ GRUP
+    a. Mood Testi
+    b. Siegel- Tukey Testi 
+  2. İKİDEN FAZLA GRUP
+    a. Levene Testli
+    b. Brown-Forsythe Testi
+    c. Lyard Ki-Kare Testi
+    
+    
+=============================================================
+
+Missing value analysis
+
+Recode(yeniden kodlama)
+Compute(Yeni değişken olşuturma)
+Splitfile(veri ayrıştırma)
+Select cases (Birim seçme)
+Rank Cases (Birim sıralama puanları oluşturma)
+Weight Cases (Birimağırlıklandırma)
+
+
+  
+  
+  
+  
+  
+  
+  
+  
