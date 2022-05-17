@@ -1,0 +1,24 @@
+
+Exploratory data analysis
+
+Tukey defined data analysis in 1961 as: "Procedures for analyzing data, techniques for interpreting the results of such procedures, ways of planning the gathering of data to make its analysis easier, more precise or more accurate, and all the machinery and results of (mathematical) statistics which apply to analyzing data."[3]
+Tukey's championing of EDA encouraged the development of statistical computing packages, especially S at Bell Labs.[4] The S programming language inspired the systems S-PLUS and R. This family of statistical-computing environments featured vastly improved dynamic visualization capabilities, which allowed statisticians to identify outliers, trends and patterns in data that merited further study.
+Tukey's EDA was related to two other developments in statistical theory: robust statistics and nonparametric statistics, both of which tried to reduce the sensitivity of statistical inferences to errors in formulating statistical models.
+The objectives of EDA are to:
+•	Enable unexpected discoveries in the data
+•	Suggest hypotheses about the causes of observed phenomena
+•	Assess assumptions on which statistical inference will be based
+•	Support the selection of appropriate statistical tools and techniques
+•	Provide a basis for further data collection through surveys or experiments[7]
+
+Dimensionality reduction:
+•	Multidimensional scaling
+•	Principal component analysis (PCA)
+•	Multilinear PCA
+•	Nonlinear dimensionality reduction (NLDR)
+•	Iconography of correlations
+
+Typical quantitative techniques are:
+•	Median polish
+•	Trimean
+•	Ordination
