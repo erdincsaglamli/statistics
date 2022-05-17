@@ -1,0 +1,30 @@
+
+
+Olasılık Dagılımlarının Beklemleri
+ 
+• Matematikte, bir noktalar kümesinin nasıl bir ¸sekil gösterdigini anlatan sayısal ölçüye “beklem” (moment) denir.
+• Dolayısıyla, bir olasılık dagılımı o da ˘ gılıma ait bir dizi beklem ile özetlenebilir.
+• Beklemler, “merkezi beklem” (central moment) ve “ham beklem” (raw moment) olarak ikiye ayrılır.
+• En yaygın kullanılan iki beklem ise “ortalama” (mean) (µ) ve “varyans”  (variance) (σ2) olarak kar¸sımıza çıkar.
+• Ortalama, aynı zamanda “beklenen de ˘ger” (expected value) olarak da adlandırılır.
+
+Beklenen deger kavramına ili¸skin bazı özellikler ¸sunlardır: 
+
+1. Sabit bir sayının beklenen degeri kendisidir. ˘ Örnek: Eger ˘ b = 2 ise E(b) = 2’dir.
+2. Eger ˘ a ve b birer sabitse, E(aX + b) = aE(X) + b’dir.
+3. Eger ˘ X ve Y bagımsız rd ise, ˘ E(XY ) = E(X)E(Y )’dir.
+
+σ2 X’nin artı degerli kare kökü ˘ σX, X’e ait “ölçünlü sapma” (standard deviation) olarak adlandırılır. 
+
+• Varyans ve ölçünlü sapma, her bir rastsal x degerinin ˘ X’in ortalaması etrafında ne geni¸slikte bir alana yayıldıgının göstergesidir. Varyans kavramına ili¸skin bazı özellikler ¸sunlardır:
+1. Sabit bir sayının varyansı sıfırdır.
+2. Eger ˘ a ve b birer sabitse, var(aX + b) = a2var(X)’dir.
+
+3. Eger ˘ X ve Y bagımsız birer rd ise ¸su yazılabilir: ˘
+var(X + Y ) = var(X) + var(Y )
+var(X − Y ) = var(X) + var(Y )
+
+4. Eger ˘ X ve Y bagımsız birer rd ve ˘ a, b, c de birer sabit ise, a¸sagıdaki kural geçerlidir:
+var(aX + bY + c) = a
+2var(X) + b
+2var(Y )
