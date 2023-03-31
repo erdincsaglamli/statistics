@@ -1,5 +1,11 @@
 # statistics
 
+BOOKS:
+
+* Mathematical Foundations of Infinite-Dimensional Statistical Models - http://www.statslab.cam.ac.uk//~nickl/Site/__files/FULLPDF.pdf
+
+---
+
 
 * https://seeing-theory.brown.edu/index.html  [Visual Introduction Prob. & Stat.]
 
